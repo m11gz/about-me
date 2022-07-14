@@ -1,4 +1,5 @@
 'use strict';
+
 // alert('Hello there!');
 
 // let yourName = prompt('My name is Miguel, what is yours'); console.log(yourName);
@@ -39,25 +40,27 @@
 //   alert('wrong! Next Question');
 // }
 
-// let question5 = prompt('Did you like this quiz');
+function corn() {
+  let question5 = prompt('Did you like this quiz');
+  if (question5 === 'yes' || question5 === 'y') {
+    alert('Thanks much appreciated');
+  } else if (question5 === 'no' || question5 === 'n') {
+    alert('Well I\'ll try better next time');
+  }
+}
+corn();
 
-// if (question5 === 'yes' || question5 === 'y') {
-//   alert('Thanks much appreciated');
-// } else if (question5 === 'no' || question5 === 'n') {
-//   alert('Well I\'ll try better next time');
+// // alert("You have 4 guesses. Pick a number 1-10");
+
+// let guess = 4;
+
+// for(let i = guess; i>=0; i--) {
+// let kanye = prompt('Let\'s play a game. Pick a number from 1-10');
+// if (kanye === '4') {
+//   alert('You are correct');
 // }
-
-// alert("You have 4 guesses. Pick a number 1-10");
-
-let guess = 4;
-
-for(let i = guess; i>=0; i--) {
-let kanye = prompt('Let\'s play a game. Pick a number from 1-10');
-if (kanye === '4') {
-  alert('You are correct');
-}
-break; 
-}
+// break;
+// }
 
 // alert('Thank\'s for your time ' + yourName +'!');
 // console.log(yourName);
