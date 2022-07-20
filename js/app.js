@@ -171,3 +171,4 @@ favStatePark();
 
 // console.log(`You scored ${correctAnswer} out of 7 questions correctly.`);
 alert(`You scored ${correctAnswer} out of 7 questions correctly.`);
+// console.log
